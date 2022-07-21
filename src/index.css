@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
+
+*{
+  margin: 0;
+  border:none;
+
+}
+.translateBar{
+  width: 100%;
+  height: 50px;
+  background-color: #9AD2CB;
+  display: flex;
+  justify-content: right;
+}
+.translateImage{
+  width: 45px;
+  height: 45px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+}
+.redirectPageRectangle{
+  width: 100%;
+  height: 1000px;
+  background-color: #D7EBBA;
+
+}
+.accordianClass{
+  padding: 20px;
+  margin: 20px;
+}
+.graphimage{
+  margin-left: 10px;
+  width: 600px;
+  height: 500px;
+}
+
+.navbar{
+  height: 200px;
+  color: #472836;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  background-color: #9AD2CB;
+}
+.navbar h1{
+  font-family: 'Lexend Mega', sans-serif;
+  padding-left: 10px;
+  font-size: 30px;
+  background-color: #9AD2CB;
+
+}
+.navbar .links{
+  background-color: #9AD2CB;
+  color: #472836;
+  margin-left: auto;
+}
+.navbar a{
+  background-color: #9AD2CB;
+  color: #472836;
+  font-family: 'Inria Sans', sans-serif;
+  margin-left: 30px;
+  font-size: 35px;
+  text-decoration: none;
+  padding-right: 30px;
+}
+
+.navbar a:hover{
+  color: #FEFFBE;
+}
+.frenchnavbar{
+  height: 200px;
+  color: #472836;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  background-color: #9AD2CB;
+}
+.frenchnavbar h1{
+  font-family: 'Lexend Mega', sans-serif;
+  padding-left: 10px;
+  font-size: 30px;
+  background-color: #9AD2CB;
+
+}
+.frenchnavbar .links{
+  background-color: #9AD2CB;
+  color: #472836;
+  margin-left: auto;
+}
+.frenchnavbar a{
+  background-color: #9AD2CB;
+  color: #472836;
+  font-family: 'Inria Sans', sans-serif;
+  margin-left: 30px;
+  font-size: 23px;
+  text-decoration: none;
+  padding-right: 30px;
+}
+
+.frenchnavbar a:hover{
+  color: #FEFFBE;
+}
+.frenchtextdivision{
+  height: 330px;
+  width: 100%;
+  background-color: #D7EBBA;
+  align-items: center;
+}
+
+.bravolabslogo{
+  background-color: #9AD2CB;
+}
+.lavalampimage{
+  display: block;
+  background-color: #9AD2CB;
+  height: 620px;
+  width: 100%;
+  border:none;
+}
+.home{
+  align-items: center;
+}
+.divisionOne{
+  height: 100px;
+  width: 100%;
+  background-color: #D7EBBA;
+}
+.ourmissiondivision{
+  height: 100px;
+  width: 100%;
+  background-color: #FEFFBE;
+
+
+}
+.hometext{
+  color: #472836;
+  padding-top: 20px;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+
+}
+.textdivision{
+  height: 300px;
+  width: 100%;
+  background-color: #D7EBBA;
+  align-items: center;
+}
+.FAQRectangle{
+  width: 100%;
+  height: 1000px;
+  background-color: #D7EBBA;
+  text-align: left;
+
+}
+.FAQText{
+  padding: 10px;
+  font-size: 40px;
+  text-align: left;
+  font-family: 'Lexend', sans-serif;
+  color: #472836;
+
+}
+.smallerText{
+  color: #472836;
+  padding-left: 10px;
+  padding-top: 14px;
+  font-size: 40px;
+  text-align: left;
+  font-family: 'Lexend', sans-serif;
+}
+.smallText{
+  color: #472836;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+  font-size: 40px;
+  padding-left: 10px;
+
+}
+.learnmorebutton{
+  text-align: center;
+  height: 100px;
+  width: 300px;
+  color: #472836;
+  font-size: 40px;
+  font-family: 'Lexend', sans-serif;
+  background-color: #FEFFBE;
+  padding: 0px;
+  margin: 0px;
+}
+.frenchlearnmorebutton{
+  text-align: center;
+  height: 100px;
+  width: 300px;
+  color: #472836;
+  font-size: 28px;
+  font-family: 'Lexend', sans-serif;
+  background-color: #FEFFBE;
+  padding: 0px;
+  margin: 0px;
+}
+.buttonsection{
+  display: flex;
+  justify-content: center;
+  
+
+}
+.errorMessage{
+  padding-left: 10px;
+  color: red;
+  font-size: 20px;
+  font-family: 'Lexend', sans-serif;
+}
+.learnMoreLink{
+  color: #472836;
+  padding-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  height: 100px;
+  width: 300px;
+  
+}
+.learnmorebutton:hover{
+  background-color: #9AD2CB;
+}
+.frenchlearnmorebutton:hover{
+  background-color: #9AD2CB;
+}
+.pageheaderbackground{
+  background-color: #FEFFBE;
+  width: 100%;
+  height: 100px;
+}
+.videoclass{
+  display: block;
+  
+}
+.bigRectangle{
+  width: 100%;
+  height: 2100px;
+  background-color: #D7EBBA;
+}
+.mediumRectangle{
+  width: 100%;
+  height: 550px;
+  background-color: #D7EBBA;
+  display: flex;
+  justify-content: center;
+}
+.lefttext{
+  color: #472836;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 40px;
+  text-align: left;
+  font-family: 'Lexend', sans-serif;
+
+}
+.textbox{
+  color: #472836;
+  background-color: #FEFFBE;
+  width: 100%;
+  height: 70px;
+  font-family: 'Lexend', sans-serif;
+  font-size:36px;
+}
+.checkbox{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.option{
+  padding-left: 10px;
+  padding-bottom: 5px;
+  background-color: #FEFFBE;
+}
+.checkboxparameters{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+  font-size: 40px;
+}
+
+.labeltext{
+  color: #472836;
+  padding-left: 10px;
+  display: inline-block;
+  font-size: 40px;
+  text-align: left;
+  font-family: 'Lexend', sans-serif;
+}
+.confirmationsign{
+  padding: 10px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+}
+.confirmationbox{
+  background-color: #FEFFBE;
+  width: 100%;
+  height: 200px;
+}
+.card{
+  height: 800px;
+  width: 595px;
+  margin: 20px;
+  background-color: #9AD2CB;
+}
+.cardsGroup{
+  display: flex;
+  
+}
+.experimentRectangle{
+  width: 100%;
+  height: 1800px;
+  background-color: #D7EBBA;
+}
+.cardimage{
+  width: 595px;
+  height: 400px;
+
+}
+.cardHeading{
+  color: #472836;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+
+}
+.cardText{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #472836;
+  font-size: 23px;
+  text-align: left;
+  padding-left: 10px;
+  font-family: 'Lexend', sans-serif;
+}
+
+.watchdemobutton{
+  text-align: center;
+  height: 100px;
+  width: 300px;
+  color: #472836;
+  font-size: 40px;
+  font-family: 'Lexend', sans-serif;
+  background-color: #FEFFBE;
+  padding: 0px;
+  margin: 0px;
+}
+.frenchwatchdemobutton{
+  text-align: center;
+  height: 100px;
+  width: 300px;
+  color: #472836;
+  font-size: 30px;
+  font-family: 'Lexend', sans-serif;
+  background-color: #FEFFBE;
+  padding: 0px;
+  margin: 0px;
+}
+.redirectButton{
+  text-align: center;
+  height: 100px;
+  width: 1000px;
+  color: #472836;
+  font-size: 40px;
+  font-family: 'Lexend', sans-serif;
+  background-color: #FEFFBE;
+  padding: 0px;
+  margin: 0px;
+
+
+}
+
+.redirectLink{
+  color: #472836;
+  padding-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  height: 100px;
+  width: 1000px;
+  
+}
+.redirectButton:hover{
+  background-color: #9AD2CB;
+}
+
+.watchdemobutton:hover{
+  background-color: #D7EBBA;
+}
+.frenchwatchdemobutton:hover{
+  background-color: #D7EBBA;
+}
+.frenchcardText{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #472836;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 10px;
+  font-family: 'Lexend', sans-serif;
+
+}
+.aboutUsImage{
+  
+  width: 1000px;
+  height: 620px;
+  padding: 20px;
+  
+}
+.phoneImage{
+  
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  
+}
+.aboutUsContainer{
+  display:flex;
+  justify-content: left;
+}
+.contactUsContainer{
+  display:flex;
+  justify-content: center;
+}
+.aboutUsRectangle{
+  width: 100%;
+  height: 950px;
+  background-color: #D7EBBA;
+}
+.frenchAboutUsRectangle{
+  width: 100%;
+  height: 1100px;
+  background-color: #D7EBBA;
+}
+.aboutUsText{
+  color: #472836;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 14px;
+  font-size: 42px;
+  text-align: left;
+  font-family: 'Lexend', sans-serif;
+
+
+}
+.phoneText{
+  color: #472836;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 40px;
+  font-size: 42px;
+  text-align: left;
+  font-family: 'Lexend', sans-serif;
+
+
+}
+.reviewtextarea{
+  color: #472836;
+  background-color: #FEFFBE;
+  font-size: 20px;
+  resize: none;
+  width: 100%;
+  padding: 0px;
+  font-family: 'Lexend', sans-serif;
+
+}
+.reviewsRectangle{
+  width: 100%;
+  height: 700px;
+  background-color: #D7EBBA;
+}
+.textInstructions{
+  background-color: #D7EBBA;
+}
+
+
+
+
